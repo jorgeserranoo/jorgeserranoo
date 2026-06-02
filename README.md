@@ -1,13 +1,11 @@
 # Hi, I'm Jorge 👋
 ### Robotics Engineering student at UC3M
-
 Final-year Robotics Engineering student at UC3M, focused on industrial automation and embedded systems. From STM32 firmware to ABB robot cells — I like working close to the hardware.
 
 ---
 
 # Hola, soy Jorge 👋
 ### Estudiante de Ingeniería Robótica en la UC3M
-
 Estudiante de último año de Ingeniería Robótica en la UC3M, con interés en automatización industrial y sistemas embebidos. Desde firmware en STM32 hasta celdas robóticas con ABB — me gusta trabajar cerca del hardware.
 
 ---
@@ -28,6 +26,9 @@ Estudiante de último año de Ingeniería Robótica en la UC3M, con interés en 
 
 ## 📂 Featured Projects
 
+### 🏭 [Automated Pneumatic Cylinder Assembly — FESTO MPS](https://github.com/jorgeserranoo/uc3m-industrial-automation-festo-mps)
+Full industrial automation cell integrating a Siemens S7-1500 PLC (TIA Portal) with a Mitsubishi RV-2AJ robot over PROFINET/S7. Includes distributed inter-station communication, laser-based orientation detection, pneumatic actuator control and HMI supervision. UC3M 2026
+
 ### 🤖 [ABB IRB2600 Robotic Assembly Cell](https://github.com/jorgeserranoo/abb-irb2600-robotic-assembly-cell)
 Dual-robot industrial cell simulated in RobotStudio. Two IRB 2600ID robots collaborate to perform pick & place, welding simulation, camera inspection and quality classification. Programmed in RAPID with SmartComponent conveyor belts.
 
@@ -46,5 +47,4 @@ Console Tic-Tac-Toe with session management, strategic point scoring on stalemat
 ---
 
 ## 📫 Contact
-
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Jorge%20Serrano-blue?logo=linkedin)](https://www.linkedin.com/in/jorgeserranonavas/)
