@@ -26,7 +26,7 @@ Estudiante de último año de Ingeniería Robótica en la UC3M, con interés en 
 
 ## 📂 Featured Projects
 
-### 🏭 [Automated Pneumatic Cylinder Assembly — FESTO MPS](https://github.com/jorgeserranoo/uc3m-industrial-automation-festo-mps)
+### 🏭 [Automated Pneumatic Cylinder Assembly — FESTO MPS](https://github.com/jorgeserranoo/festo-mps-plc-robot-integration)
 Full industrial automation cell integrating a Siemens S7-1500 PLC (TIA Portal) with a Mitsubishi RV-2AJ robot over PROFINET/S7. Includes distributed inter-station communication, laser-based orientation detection, pneumatic actuator control and HMI supervision. UC3M 2026
 
 ### 🤖 [ABB IRB2600 Robotic Assembly Cell](https://github.com/jorgeserranoo/abb-irb2600-robotic-assembly-cell)
