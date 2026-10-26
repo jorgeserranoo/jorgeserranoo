@@ -1,50 +1,68 @@
 # Hi, I'm Jorge 👋
-### Robotics Engineering student at UC3M
-Final-year Robotics Engineering student at UC3M, focused on industrial automation and embedded systems. From STM32 firmware to ABB robot cells — I like working close to the hardware.
-
----
-
+ 
+**Final-year Robotics Engineering student at UC3M · Industrial automation & embedded systems · Madrid**
+ 
+I like working close to the hardware: from STM32 firmware and interrupt-driven control loops to PLC-robot integration in real industrial cells. Currently a Systems Engineering intern at Akkodis (Aerospace Systems Engineering), graduating in June 2027.
+ 
 # Hola, soy Jorge 👋
-### Estudiante de Ingeniería Robótica en la UC3M
-Estudiante de último año de Ingeniería Robótica en la UC3M, con interés en automatización industrial y sistemas embebidos. Desde firmware en STM32 hasta celdas robóticas con ABB — me gusta trabajar cerca del hardware.
-
+ 
+**Estudiante de último año de Ingeniería Robótica en la UC3M · Automatización industrial y sistemas embebidos · Madrid**
+ 
+Me gusta trabajar cerca del hardware: desde firmware en STM32 y control por interrupciones hasta la integración PLC-robot en celdas industriales reales. Actualmente en prácticas como Ingeniero de Sistemas en Akkodis (Aerospace Systems Engineering); me gradúo en junio de 2027.
+ 
 ---
-
-## 🛠️ Tech Stack
-
-| Area | Tools & Languages |
+ 
+## 🛠️ Tech stack
+ 
+| Area | Tools & languages |
 |---|---|
-| Microcontrollers | C/C++ · STM32 HAL · STM32CubeIDE |
-| Industrial Robotics | ABB RobotStudio · RAPID · COSIROP |
-| Automation | TIA Portal (Siemens PLC) |
-| Simulation & CAE | MATLAB/Simulink · Abaqus FEM |
-| Robotics Software | ROS · Python |
-| Machine Learning | scikit-learn · numpy · pandas |
-| CAD | SolidEdge |
-
+| **Industrial automation** | Siemens S7-1500 · TIA Portal · PROFINET · HMI (WinCC) |
+| **Industrial robotics** | ABB RobotStudio · RAPID · Mitsubishi RV-2AJ · COSIROP |
+| **Embedded systems** | C/C++ · STM32 HAL · STM32CubeIDE · UART/PWM/timers · interrupt-driven design |
+| **Robotics software** | ROS 1 (Noetic) · Python · OpenCV |
+| **Simulation & CAE** | MATLAB/Simulink · Abaqus (FEM) |
+| **Machine learning** | scikit-learn · numpy · pandas |
+| **CAD** | Solid Edge |
+| **Languages** | Spanish (native) · English C1 (IELTS) · French C2 (DALF) |
+ 
 ---
-
-## 📂 Featured Projects
-
-### 🏭 [Automated Pneumatic Cylinder Assembly — FESTO MPS](https://github.com/jorgeserranoo/festo-mps-plc-robot-integration)
-Full industrial automation cell integrating a Siemens S7-1500 PLC (TIA Portal) with a Mitsubishi RV-2AJ robot over PROFINET/S7. Includes distributed inter-station communication, laser-based orientation detection, pneumatic actuator control and HMI supervision. UC3M 2026
-
-### 🤖 [ABB IRB2600 Robotic Assembly Cell](https://github.com/jorgeserranoo/abb-irb2600-robotic-assembly-cell)
-Dual-robot industrial cell simulated in RobotStudio. Two IRB 2600ID robots collaborate to perform pick & place, welding simulation, camera inspection and quality classification. Programmed in RAPID with SmartComponent conveyor belts.
-
-### 🚗 [STM32 Bluetooth Robot Car](https://github.com/jorgeserranoo/stm32-bluetooth-robot-car)
-Autonomous/manual robot car built on the STM32L152. Features ultrasonic obstacle avoidance, Bluetooth remote control via HC-05, PWM motor speed control and a fully interrupt-driven architecture.
-
-### 🎮 [ROS Galaga Arcade Game](https://github.com/jorgeserranoo/RP_Martinez_Lola_Serrano_Jorge)
-Galaga-inspired arcade game built with Python + pygame and integrated with ROS 1 (Noetic). Uses topics, services and parameters across a multi-node architecture.
-
-### 🧠 [Machine Learning — Clustering Lab](https://github.com/jorgeserranoo/ML_5)
-Unsupervised learning exercises on state/action space data: K-Means, hierarchical clustering, PCA dimensionality reduction and silhouette analysis.
-
-### ❌ [Tic-Tac-Toe in C++](https://github.com/jorgeserranoo/Trabajo-final-Programaci-n)
-Console Tic-Tac-Toe with session management, strategic point scoring on stalemate, and game statistics. Final project for 1st-year Programming.
-
+ 
+## 📂 Featured projects
+ 
+### 🏭 [Automated pneumatic cylinder assembly — FESTO MPS](https://github.com/jorgeserranoo/festo-mps-plc-robot-integration)
+`TIA Portal` `S7-1500` `PROFINET` `Mitsubishi RV-2AJ` `HMI` · UC3M 2026 · Grade 9.3/10
+ 
+Full industrial automation cell: a Siemens S7-1500 PLC orchestrates a Mitsubishi RV-2AJ robot and a set of distributed FESTO MPS stations over PROFINET. Covers inter-station communication, laser-based part orientation detection, pneumatic actuator sequencing and HMI supervision.
+ 
+### 🤖 [ABB IRB 2600 robotic assembly cell](https://github.com/jorgeserranoo/abb-irb2600-robotic-assembly-cell)
+`RobotStudio` `RAPID` `SmartComponents`
+ 
+Dual-robot cell simulated in RobotStudio. Two IRB 2600ID robots coordinate pick & place, a welding simulation, camera inspection and quality classification. Programmed in RAPID, with SmartComponent-driven conveyor logic.
+ 
+### 🚗 [STM32 Bluetooth robot car](https://github.com/jorgeserranoo/stm32-bluetooth-robot-car)
+`C` `STM32L152` `STM32 HAL` `HC-05` `PWM`
+ 
+Autonomous/manual robot car. Ultrasonic obstacle avoidance, Bluetooth remote control over an HC-05 module, PWM motor speed control and a fully interrupt-driven architecture (no blocking delays in the main loop).
+ 
+### 🎮 [ROS Galaga arcade game](https://github.com/jorgeserranoo/RP_Martinez_Lola_Serrano_Jorge)
+`ROS 1 Noetic` `Python` `pygame`
+ 
+Galaga-inspired game built as a multi-node ROS application: game state, input and rendering split across nodes communicating through topics, services and the parameter server.
+ 
+### 🧠 [Machine learning — clustering lab](https://github.com/jorgeserranoo/ML_5)
+`Python` `scikit-learn` `PCA`
+ 
+K-Means, hierarchical clustering, PCA dimensionality reduction and silhouette analysis on state/action-space data.
+ 
+### ❌ [Tic-tac-toe in C++](https://github.com/jorgeserranoo/Trabajo-final-Programaci-n)
+`C++`
+ 
+Console game with session management, strategic scoring on stalemate and game statistics. First-year programming project.
+ 
 ---
-
+ 
 ## 📫 Contact
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Jorge%20Serrano-blue?logo=linkedin)](https://www.linkedin.com/in/jorgeserranonavas/)
+ 
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Jorge%20Serrano%20Navas-0A66C2?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jorgeserranonavas/)
+[![Email](https://img.shields.io/badge/Email-contact-D14836?logo=gmail&logoColor=white)](mailto:TU_EMAIL@dominio.com)
+ 
